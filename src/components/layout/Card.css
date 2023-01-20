@@ -1,0 +1,47 @@
+.Card{
+    border: 3px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.Card .Content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 0 0 25px 0;
+}
+
+.Card .Footer{
+    width: 100%;
+    color: white;
+    padding: 7px 0;
+}
+
+.Card .Content button{
+    width: 60%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.Card .Content button:hover{
+    background-color: #ddd;
+    border: 1px solid #444;
+    border-top: 2px solid #444;
+    border-left: 2px solid #444;
+}

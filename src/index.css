@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #fff;
+    display: flex;
+    padding-top: 15%;
+    justify-content: center;
+    background: #DCE35B;
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+    background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
